@@ -1,0 +1,16 @@
+.container {
+  width: 100%;
+}
+
+.my-input {
+  width: 80%;
+  margin: 0 10%;
+  border: 1rpx solid #ccc;
+  padding: 5% 0;
+}
+
+.my-button{ 
+
+  margin-top:30rpx;
+
+}

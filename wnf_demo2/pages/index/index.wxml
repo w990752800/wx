@@ -1,0 +1,15 @@
+<!--index.wxml-->
+
+<view class="container">
+  <input class='my-input' placeholder='我要搜索' bindinput='input'></input>
+  <button class='my-button' bindtap='clickSearch'>查询</button>
+
+  <scroll-view scroll-y="true" style='height:300px;'>
+    <view wx:for="{{mainMsg}}" style='padding:10px;'>
+      {{item.text}} {{item.username}}
+      <image src='{{item.top_commentsHeader}}'></image>
+    </view>
+  </scroll-view>
+
+
+</view>
